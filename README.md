@@ -31,7 +31,43 @@ Características:
 
 ---
 
-### 2.2. Configuração no Windows
+### 2.2. Instalação no Windows
+
+Você pode instalar o Rastro de duas formas:
+
+---
+
+#### 2.2.1. Instalação (Recomendada) — Instalador para Windows (.exe)
+
+Esta é a forma mais simples: você baixa um `.zip`, **descompacta** e executa o instalador.  
+O instalador já está configurado para:
+
+- instalar tudo automaticamente
+- criar as pastas necessárias
+- configurar o **PATH** do sistema (para o comando `rastro` funcionar no terminal)
+
+**Download (Google Drive):**  
+https://drive.google.com/file/d/1uhJW-l1PpboDz6CcKAnLDepeiVIDuD4H/view?usp=sharing
+
+**Passo a passo:**
+
+1. Baixe o arquivo: `RastroSetup_User_v1.0.exe.zip`
+2. Clique com o botão direito e **Extraia/Descompacte** o `.zip`
+3. Execute o instalador: `RastroSetup_User_v1.0.exe`
+4. Conclua a instalação seguindo as etapas do instalador
+5. Feche e reabra o terminal (PowerShell ou CMD)
+6. Teste:
+   ```bash
+   rastro --help
+   ```
+
+> Observações:
+> - Se o Windows SmartScreen exibir aviso, verifique a origem do arquivo antes de prosseguir.
+> - Em alguns ambientes, pode ser necessário executar o instalador como **Administrador** para configurar PATH global.
+
+---
+
+#### 2.2.2. Configuração manual (alternativa)
 
 1. **Obtenha o Rastro**  
    Baixe ou clone o repositório em uma pasta, por exemplo:  
@@ -538,3 +574,4 @@ Resumo de uso recomendado:
   - colaboração
   - histórico remoto
   - integração com plataformas como GitHub/GitLab
+```

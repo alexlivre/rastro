@@ -23,7 +23,7 @@ Características:
 
 ### 2.1. Requisitos
 
-- **Python** 3.8 ou superior  
+- **Python** 3.14 ou superior  
 - Sistema operacional:
   - **Windows**
   - **Linux**
